@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
 body {
   font-family: 'Work Sans', sans-serif;
 };
@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 23px;
+  margin-bottom: 26px;
   }
 
   .logo {
@@ -75,4 +76,36 @@ body {
 
   .bx-globe {
     font-size: 23px;
+  }
+
+
+  header {
+    background: url(img/Rectangle.png) no-repeat center center;
+    background-size: cover;
+  }
+
+  .header_content {
+    padding: 210px 144px 296px 144px;
+
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 76px;
+      font-weight: 400;
+      color: #013A4C;
+      margin-bottom: 31px;
+    }
+
+    p{
+      font-size: 24px;
+      color: #013A4C;
+    }
+
+    .btn1 {
+      color: #013A4C;
+    }
+
+    .btn2 {
+      background: #013A4C;
+      color: white;
+    }
   }
